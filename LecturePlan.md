@@ -30,11 +30,11 @@ Objective of the course:
 
 ## Conceptual structure of a Program
 
-					Memory
-			 		 ↑ ↓	
-				--------------
-		Input →	| Processing | → Output	
-				--------------
+                    Memory
+                     ↑ ↓	
+                --------------
+        Input → | Processing | → Output	
+                --------------
 
 ## Steps in completing a C program
 	1. 	Create/Edit your program in a text editor
