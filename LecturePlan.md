@@ -5,6 +5,7 @@ Course: CS1020 Introductio to Programming
 Term : 2018 Winter (Jan-Apr)
 
 # Lecture 1
+Jan 3, 2018
 
 Objective of the course:
 	To give you a /balance of C/.
@@ -49,6 +50,7 @@ Objective of the course:
 ## Demo of a "hello world program"
 
 # Lecture 2
+Jan 4, 2018
 	
 ##	File structure in Linux
 	-	Folders and files
@@ -86,6 +88,7 @@ Objective of the course:
 		}
 
 # Lecture 3
+Jan 10, 2018
 	
 ## Data types
 	-	You need not tell what is the value of x,
@@ -99,15 +102,16 @@ Objective of the course:
 	-	+, - , *, /, %
 
 # Lecture 4
+Jan 17, 2018
 	
-##	Reading Assignment
+##	Exam on Jan 25.
+	- 	Topics
 	-	Programming in C (Stephen G. Kochan)
 		-	Some fundamentals
 		-	Compiling and running your first program
 		-	Variables, data types and arithmetic expressions
 		-	Making decisions
 
-##	Exam on Jan 25.
 
 ## Decision making
 	if (condition)
@@ -147,8 +151,9 @@ Objective of the course:
 	Example: Simple calculator
 
 # Lecture 5 and 6
+Jan 18, 2018
 	
-	# Multiway branching switch case
+## Multiway branching switch case
 
 	switch (expression)
 	{
@@ -183,10 +188,21 @@ Objective of the course:
 		- Returning early
 		- Being over smart
 
-	Introduced for loop also
+## For loop
+	
+	for(0-initialisation; 1-continue-condition; 3-update)
+	{
+		2-statements;
+	}
+	
+	Sequence: 0,1,2,3,1,2,3 
 
+	- Example 1 : Print numbers 1 to 10, 10 to 1, other increments
+	- Example 2 : Mutliplication table of an arbitrary integer
 
 # Lectures 7 and 8
+Jan 25, 2018
+
 	For loop continued
 		Example 1: Factorial
 		for(0. loop initialise; 1. continue condition; 4. update condition)
