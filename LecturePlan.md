@@ -203,31 +203,34 @@ Jan 18, 2018
 # Lectures 7 and 8
 Jan 25, 2018
 
-	For loop continued
-		Example 1: Factorial
-		for(0. loop initialise; 1. continue condition; 4. update condition)
-		{
-			2. statements;
-		}
-		
-		Order of check: 0, 1, 2, 3, 1, 2, 3, 1, 2, 3, ....	
-
-	If inside for
-		Example 1: IsPrime
-			- sqrt(), math.h?
-		Example 2: are two numbers relatively prime
-
-	Switch inside for
-		Example 1: hip hip hurray
-		Example 2: read out the digits
-
-	for inside a switch
-		Enhance the calculator
+## For loop continued
+	Example 1: Factorial
+	for(0. loop initialise; 1. continue condition; 4. update condition)
+	{
+		2. statements;
+	}
 	
-	do-while loop
-		Example 1: Sum of input numbers
-		Example 2: Average, standard dev, maximum
-		Example 3: Binary to decimal
+	Order of check: 0, 1, 2, 3, 1, 2, 3, 1, 2, 3, ....	
+
+## If inside for
+	Example 1: IsPrime
+		- sqrt(), math.h?
+	Example 2: are two numbers relatively prime
+
+## Switch inside for
+	Example 1: hip hip hurray
+	Example 2: read out the digits
+
+## for inside a switch
+	Enhance the calculator
+
+# Lectures 9 and 10
+Feb 1, 2018
+
+## do-while loop
+	Example 1: Sum of input numbers
+	Example 2: Average, standard dev, maximum
+	Example 3: Binary to decimal
 		
 		
 	
