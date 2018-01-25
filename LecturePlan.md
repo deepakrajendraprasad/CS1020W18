@@ -29,10 +29,12 @@ Objective of the course:
 	- Error prone
 
 ## Conceptual structure of a Program
-	- Input
-	- Output
-	- Processing
-	- Memory
+
+					Memory
+			 		 ↑ ↓	
+				--------------
+		Input →	| Processing | → Output	
+				--------------
 
 ## Steps in completing a C program
 	1. 	Create/Edit your program in a text editor
@@ -183,7 +185,6 @@ Objective of the course:
 
 	Introduced for loop also
 
-\pagebreak
 
 # Lectures 7 and 8
 	For loop continued
