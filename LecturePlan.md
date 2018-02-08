@@ -247,10 +247,72 @@ Feb 1, 2018
 		- Enhancements: exact when available, negative numbers
 
 ## Nested loops
+	(Did not cover)
 	Example : 10 x 10 Multiplication table
 	Example : Bar graph
 
+# Lectures 11 and 12
+Feb 18, 2018
+
 ## Arrays
+
+	- 	Discovery of arrays is like discovery of paper
+		You can use it to store a lot of data and 
+		read through it multiple times.
+	
+### Three steps to using an array
+
+	1. 	Declare an array
+		int marks[100]; // marks is an array that can hold at most 100 integers
+		float weights[10]; // weights is an array that can hold at most 10 floating point numbers
+
+	2. 	Store a value to i-th cell in an array
+		marks[i-1] = 10 // First cell of the array is indexed by 0
+
+	3. 	Read the data stored in an array
+		value = marks[i-1];
+
+### Points to rememer
+
+	1. 	The type of data to be stored (int/float/char etc)
+		and the maximum number of them (size of the array)
+		has to be declared in advance.
+
+	2.	Array index starts from 0.
+		So if marks is an array of 100 integers,
+		they are marks[0], marks[1], ..., marks[99]	
+
+	3.	Writing or reading to 101-th location of an
+		array of size 100 can lead to unpredictable
+		behaviour.
+	
+### Typical program flow when using arrays
+
+	1. 	Try to guess what would be the maximum size of the 
+		array that might be needed for the task and
+		declare the array accordingly
+
+	2.	Ask the user to enter length of his data.
+
+	3. 	Make sure that his requirement is not more than
+		the size we allotted for the array.
+
+	4.	Read the data from the user one by one and
+		store it in the array by using a scanf
+		inside a for loop.
+
+	5.	Optionally print back the contents of the array
+		using a printf inside a for loop to check if
+		the storing part was OK.
+
+	6. 	Do what ever processing is needed and display
+		the results.
+
+	Example: Multi-function interactive data analyser.
+
+
+
+
 			
 		
 	
