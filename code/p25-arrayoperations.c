@@ -1,30 +1,40 @@
-/* Array operations */
+/* 	
+	An interactive statistical analyser which can read an array of
+	numbers and then do various operations on the array 
+*/
 
 #include <stdio.h>
 
 int main()
 {
-	// Declare and array called scores
-	// which can store a maximum of
-	// 10 integers.
-	int scores[5];
-	int i, length = 10;
+	// Declare and array called scores for the input data
+	int scores[10];		// The array scores can store a maximum of 10 integers
+	int i, length, option;
 	int sum;
 	float avg;
-	int option, treasure, search_success, replacement, num_replacements;
+	int treasure, search_success, replacement, num_replacements;
 
 	printf("Please enter the number of scores (Maximum 10): ") ;
 	scanf(" %d", &length);
 
-	// Store the scores
+	// I forgot to do this check in class. 
+	// It is highly recommended to do this check when reading
+	// Data and storing it in an array.	
+	if(length > 10)
+	{
+		printf("Sorry, this is a trial version of the software.\n");
+		printf("You can only store at most  10 numbers\n")
+		return 1;
+	}
+
+	// Read the data from the user and store it the array
 	printf("Please enter the scores: ");
 	for(i = 0; i < length; i++)
 	{
-		//	scanf(" %d", &scores[i]);
-		scores[i] = i;
+		scanf(" %d", &scores[i]);
 	}
 
-	while(1)
+	while(1)	// Infinite loop!
 	{
 		printf("\nWhat would you like to know?\n");
 		printf("\t 0. Display the array\n");
