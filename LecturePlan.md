@@ -4,6 +4,13 @@ Lecture Plan
 Course: CS1020 Introductio to Programming
 Term : 2018 Winter (Jan-Apr)
 
+Grading Policy :
+	- Theory 	: 50
+		- Quiz 1 : 10
+		- Quiz 2 : 10
+		- End Sem : 30
+	-Lab : 50
+
 # Lecture 1
 Jan 3, 2018
 
@@ -224,14 +231,27 @@ Jan 25, 2018
 ## for inside a switch
 	Enhance the calculator
 
+\pagebreak
+
 # Lectures 9 and 10
 Feb 1, 2018
 
-## do-while loop
-	Example 1: Sum of input numbers
-	Example 2: Average, standard dev, maximum
-	Example 3: Binary to decimal
-		
+## do-while loops
+	Example 1: Sum of input numbers, terminated by zero
+	Example 2: Find dip, first peak
+
+## while loops
+	Example 1 : log-star function.
+	Example 2 : Next higher power perfect square.
+	Example 3 : Square root
+		- Enhancements: exact when available, negative numbers
+
+## Nested loops
+	Example : 10 x 10 Multiplication table
+	Example : Bar graph
+
+## Arrays
+			
 		
 	
-		
+	
