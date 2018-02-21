@@ -8,12 +8,17 @@
 int main()
 {
 	// Declare and array called scores for the input data
-	int scores[10];		// The array scores can store a maximum of 10 integers
-	int i, length, option;
+	int scores[10] = {12, 15, 10, 11, 9, 34, 12, 23, 24, 12};		
+	// The array scores can store a maximum of 10 integers,
+	//	and it is initialised as above.
+	int i, j, length, option;
 	int sum;
 	float avg;
 	int treasure, search_success, replacement, num_replacements;
+	int backup;
 
+	length = 10;
+/*
 	printf("Please enter the number of scores (Maximum 10): ") ;
 	scanf(" %d", &length);
 
@@ -23,7 +28,7 @@ int main()
 	if(length > 10)
 	{
 		printf("Sorry, this is a trial version of the software.\n");
-		printf("You can only store at most  10 numbers\n")
+		printf("You can only store at most  10 numbers\n");
 		return 1;
 	}
 
@@ -33,6 +38,7 @@ int main()
 	{
 		scanf(" %d", &scores[i]);
 	}
+*/
 
 	while(1)	// Infinite loop!
 	{
@@ -42,6 +48,8 @@ int main()
 		printf("\t 2. Average\n");
 		printf("\t 3. Search\n");
 		printf("\t 4. Search and Replace\n");
+		printf("\t 5. Reverse the array\n");
+		printf("\t 6. Sort the array\n");
 		printf("\t 9. Exit the program\n");
 		scanf(" %d", &option);
 
@@ -105,6 +113,34 @@ int main()
 				}
 				printf("%d replacements made.\n", num_replacements);
 				break;	
+			case 5: // Reverse the array
+				for(i = 0; i < length/2; i++)
+				{ 
+					//Exchange scores[i] with scores[length-1-i]
+					backup = scores[i];
+					scores[i] = scores[length-1-i];
+					scores[length-1-i] = backup;
+				}
+				printf("The array is now reversed\n");
+				break;	
+
+			case 6: // Sort the array in ascending order
+				for(i = 0; i < length-1; i++) // rounds
+				{
+					for(j = 0; j < length-1-i; j++) // Bubble 
+					{
+						if(scores[j] > scores[j+1])
+						{
+							//Exchange scores[j] with scores[j+1]
+							backup = scores[j];
+							scores[j] = scores[j+1];
+							scores[j+1] = backup;
+						}
+					} 
+				}
+				printf("The array is now sorted\n");
+				break;	
+				
 			case 9: // Exit the program
 				return 0;
 			default: 
