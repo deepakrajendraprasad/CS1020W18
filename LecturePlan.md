@@ -1,7 +1,7 @@
 Lecture Plan
 ============
 
-Course: CS1020 Introductio to Programming
+Course: CS1020 Introduction to Programming
 Term : 2018 Winter (Jan-Apr)
 
 Grading Policy :
@@ -160,7 +160,7 @@ Jan 17, 2018
 # Lecture 5 and 6
 Jan 18, 2018
 	
-## Multiway branching switch case
+## Multi-way branching switch case
 
 	switch (expression)
 	{
@@ -205,7 +205,7 @@ Jan 18, 2018
 	Sequence: 0,1,2,3,1,2,3 
 
 	- Example 1 : Print numbers 1 to 10, 10 to 1, other increments
-	- Example 2 : Mutliplication table of an arbitrary integer
+	- Example 2 : Multiplications table of an arbitrary integer
 
 # Lectures 7 and 8
 Jan 25, 2018
@@ -231,8 +231,6 @@ Jan 25, 2018
 ## for inside a switch
 	Enhance the calculator
 
-\pagebreak
-
 # Lectures 9 and 10
 Feb 1, 2018
 
@@ -251,8 +249,9 @@ Feb 1, 2018
 	Example : 10 x 10 Multiplication table
 	Example : Bar graph
 
+
 # Lectures 11 and 12
-Feb 18, 2018
+Feb 8, 2018
 
 ## Arrays
 
@@ -272,7 +271,7 @@ Feb 18, 2018
 	3. 	Read the data stored in an array
 		value = marks[i-1];
 
-### Points to rememer
+### Points to remember
 
 	1. 	The type of data to be stored (int/float/char etc)
 		and the maximum number of them (size of the array)
@@ -311,9 +310,78 @@ Feb 18, 2018
 	Example: Multi-function interactive data analyser.
 
 
+# Lectures 13 and 14
+Feb 15, 2018
+
+## Arrays (contd ...)
+
+	1. 	Discuss array initialisation and use it to modify 
+		the program for doing array operations
+	2. 	Enhance the previous program to do array reversal
+	3. 	Enhance the previous program to do sorting
+		- Bubble sort algorithm
+
+## 2D-arrays (Matrices)
+
+	1.	Do a matrix operations program by starting from the 
+		same for 1D-arrays
+	2.	Implement Search, Mirror etc
+
+\pagebreak
+
+# Lectures 15 and 16
+Feb 21, 2018
+
+## Agenda
+	1.	Introduce file operations
+		fopen(), fclose(), fscanf(), fprintf()
+	2.	Write your own cat command
+	3.	Write your own copy command
+	4.	Enhance it to a substitution cipher
+	5.	Enhance the matrix program to load the matrix from a file
+	6.	Enhance the above program to save the matrix to a file
+
+## Steps in using files
+
+	1.	Declare two file pointers
+			FILE *in_file, *out_file;
+	2.	Declare character arrays for both file names 
+			char in_file_name[81], out_file_name[81];
+	3.	Get the file names from the user
+			printf("Please enter the name of input file: ");
+			scanf(" %s", in_file_name);
+			printf("Please enter the name of output file: ");
+			scanf(" %s", out_file_name);
+	4.	Open the input file for reading
+			in_file = fopen(in_file_name, "r");
+	5. 	Check if the input file was opened correctly. 
+		Otherwise, print an error message and return
+	6.	Open the output file for reading
+			out_file = fopen(out_file_name, "w");
+	7.	Read data from input file using fscanf
+			return_value = fscanf(in_file, "%c", &c);
+	8.	Process the data c
+	9.	Write the result to output file using fprintf
+			fprintf(out_file, "%c", c);
+	10. Check if return_value == EOF
+		Continue with Step 7 if not
+		If yes, break out of the loop
+	11.	Close both the files
+			fclose(in_file);
+			fclose(out_file);
+	12.	Return from the function
 
 
-			
-		
-	
+
+
+
+
+
+# Tentative Plan	
+
+	Week 07. 	Arrays continued + 2D arrays
+	Week 08.	2D arrays + File read/write
+	Week 09.	Pointers
+	Week 10. 	Strings
+	Week 11. 	Functions
 	
