@@ -330,7 +330,7 @@ Feb 15, 2018
 \pagebreak
 
 # Lectures 15 and 16
-Feb 21, 2018
+Feb 22, 2018
 
 ## Agenda
 	1.	Introduce file operations
@@ -372,7 +372,44 @@ Feb 21, 2018
 	12.	Return from the function
 
 
+# Lectures 17 and 18
+Feb 22, 2018
 
+## Agenda
+	1. 	Introduce functions, and present their beauty
+		Kochan, Ch-7, First Line:
+		"Behind all well-written C programs lies the same
+		fundamental element - the /function/".
+	
+## Steps in using functions
+	1.	Declare a function
+		- 	name
+		- 	number of inputs and the type of each input
+		- 	type of return value 
+		- 	Example: int factorial(int n);
+	2.	Define a function a.k.a. write the code for the function
+		-	You already know everything because main is a function
+	3.	Calling a function
+
+## Example programs
+	1.	One argument, one return value
+		abs()
+		ceil(), floor(), round()
+		to_upper(), to_lower()
+	2.	Two arguments, one return value
+		max(), power()
+	3.	No arguments, no return value
+		void print_message()
+	4.	No arguments, one return value
+		int main()
+	5.	Making old code better
+		sqrt() 
+		two-variable calculator
+	
+
+## Some concepts
+	1.	Actual parameters, formal parameters
+	2.	Local variables, scope
 
 
 
