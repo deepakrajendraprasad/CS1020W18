@@ -36,6 +36,12 @@
 *.x86_64
 *.hex
 
+# Generated outputs
+*.pdf
+
+# Backups and swaps
+*.swp
+
 # Debug files
 *.dSYM/
 *.su
