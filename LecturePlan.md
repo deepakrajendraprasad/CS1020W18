@@ -373,7 +373,7 @@ Feb 22, 2018
 
 
 # Lectures 17 and 18
-Feb 22, 2018
+Mar 1, 2018
 
 ## Agenda
 	1. 	Introduce functions, and present their beauty
@@ -411,6 +411,35 @@ Feb 22, 2018
 	1.	Actual parameters, formal parameters
 	2.	Local variables, scope
 
+# Lectures 19 and 20
+Mar 8, 2018
+
+##	Agenda 
+	1.	Actual and formal parameters
+	2.	Recursion
+	3.	Scope of a variable
+		auto, global and static variables		
+
+##	Examples
+	1.	Attempt to increment a variable using a function
+	2.	Attempt to swap two variables using a function 
+	
+##	Recursion Examples
+	1.	Factorial
+	2.	Reading out the digits of a number (in decimal and in binary)
+	3.	Towers of Hanoi
+
+##	Using global and static variables
+	1.	Global variables
+		+ 	Can be shared across multiple functions
+		+ 	Reduces the number of arguments to be passed to a function
+		- 	Very very confusing to a reader of the program
+		- 	Drastically reduces the chance of your funcion being used by
+			another programmer.
+		-	You cannot use that variable name in a function
+	2. 	Static variables
+		+	Communication with previous and later lifes
+		-	
 
 
 
