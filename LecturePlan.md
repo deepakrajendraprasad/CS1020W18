@@ -441,13 +441,51 @@ Mar 8, 2018
 		+	Communication with previous and later lifes
 		-	
 
+# Lecture 21 and 22
+Mar 15, 2018
 
+## Portions for Quiz-2
+
+Chapters from Kochan on 
+	-	Program Looping
+	-	Making Decision (Repeat of Quiz-1), 
+	-	Working with Arrays (including multi-dimensional arrays)
+	-	Working with Functions (global, static and automatic variables) 
+	- 	Pointers (You can skip the sections involving structures and strings)
+
+##	Agenda
+
+	1.	Pointers
+	2.	Passing pointers to functions
+	3.	Array names are pointers
+
+##	Examples
+
+	1.	Swapping two variables
+	2.	Sorting an array using a function (Exercise)
+
+
+# Lecture 23 and 24
+Mar 22, 2018
+
+## Agenda
+	1.	More examples of pointers, arrays and functions
+	2.	Variable length arrays
+	3.	Handling 2D arrays in functions
+	4.	Strings
+
+
+##	Examples
+
+	1.	Binary Search in a sorted array
+		- First using array indices
+		- Next using start and end pointers
+	2.	Matrix addition
 
 # Tentative Plan	
 
-	Week 07. 	Arrays continued + 2D arrays
-	Week 08.	2D arrays + File read/write
-	Week 09.	Pointers
-	Week 10. 	Strings
-	Week 11. 	Functions
+	-	Lectures 25 and 26 (Apr 05): Strings, Memory layout of a C program
+	-	Lectures 27 and 28 (Apr 12): Structure
+
+	
 	
