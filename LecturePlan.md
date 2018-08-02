@@ -480,12 +480,40 @@ Mar 22, 2018
 	1.	Binary Search in a sorted array
 		- First using array indices
 		- Next using start and end pointers
-	2.	Matrix addition
+	2.	Matrix addition (did not do)
+
+# Lecture 25 and 26
+Apr 04, 2018
+
+## Agenda
+	1.	Strings
+		- Character arrays with an endmarker
+		- C has special features for such arrays (but not enough)
+		- C has a string library with more functions (but not enough)
+		- Buffer overflow issues
+	
+## Examples
+		- Length of a string
+		- Isequal, Compare
+		- Substring
+
+
+# Lecture 27 and 28
+Apr 12, 2018
+
+## Structures in C
+	1. What is it?
+	2. How to use it?
+		- Declaration of the type
+		- Declaration of variables
+		- Initialisation
+		- Assignment
+		- Passing structures to functions
+		- Returning structures from functions
+
 
 # Tentative Plan	
 
-	-	Lectures 25 and 26 (Apr 05): Strings, Memory layout of a C program
-	-	Lectures 27 and 28 (Apr 12): Structure
 
 	
 	
